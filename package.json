@@ -1,0 +1,37 @@
+{
+  "name": "goit-advanced-js",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/goit-advancedjs/",
+    "preview": "vite preview"
+  },
+  "author": "renerroll <renerroll@gmail.com>",
+  "license": "ISC",
+  "types": "./dist/index.d.ts",
+  "devDependencies": {
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.11.5",
+    "glob": "^8.1.0",
+    "sass": "^1.77.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "vite": "^4.5.3"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@vimeo/player": "^2.23.0",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "flatpickr": "^4.6.13",
+    "izitoast": "^1.4.0",
+    "lodash.throttle": "^4.1.1",
+    "simplelightbox": "^2.14.3",
+    "slim-select": "^2.8.2",
+    "the-new-css-reset": "^1.11.2",
+    "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-html-inject": "^1.0.1"
+  }
+}
