@@ -30,7 +30,7 @@ export default defineConfig(({ command }) => {
       rollupOptions: {
         input: {
           main: resolve(__dirname, 'src/index.html'),
-          ...getPages(resolve(__dirname, 'src/public')),
+          ...getPages(resolve(__dirname, 'src')),
         },
         output: {
           manualChunks(id) {
